@@ -1,0 +1,41 @@
+html {
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+#root{
+    height: 100%;
+    background-color: #f4f5f7;
+}
+.bg-color{
+    height: 100%;
+    font-family: 'Roboto Slab', serif;
+    width: 80%;
+}
+
+.header{
+    margin-top: 15px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.container .jumbotron {
+    padding-left: 0;
+    box-shadow:  3px 3px 5px 6px #ccc;
+    background-color: #37383a;
+    color: white;
+}
+
+.action{
+    margin-bottom: 10px;
+}
+
+.big-button{
+    padding: 0;
+    font-size: 32px;
+    font-weight: 600;
+    padding: 5px 0;
+    background-color: #827775;
+}
+
