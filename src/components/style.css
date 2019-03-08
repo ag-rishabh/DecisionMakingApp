@@ -15,7 +15,6 @@ body{
 }
 
 .header{
-    margin-top: 15px;
     padding: 0;
     margin-bottom: 20px;
 }
@@ -39,3 +38,56 @@ body{
     background-color: #827775;
 }
 
+.options-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.options-header h3{
+    margin-top: 0;
+}
+
+.options-header button {
+    border: 1px solid;
+}
+
+.options{
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    padding: 17px;
+    margin-bottom: 10px;
+}
+
+.option{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.option span{
+    padding: 0 15px;
+}
+
+
+.option-text{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.add-option-error{
+    font-size: 30px; 
+}
+
+.add-option{
+    display: flex;
+}
+
+.add-option__input{
+    flex-grow: 1;
+    margin-right: 5px;
+    padding: 5px;
+    outline: none;
+}
