@@ -97,7 +97,7 @@ class IndecisionApp extends React.Component {
                         hasOptions={this.state.options.length > 0}
                         handlePick={this.handlePick}
                     />
-                    <div className="well">
+                    <div className="well box">
                         <Options
                             options={this.state.options}
                             handleDeleteOptions={this.handleDeleteOptions}
